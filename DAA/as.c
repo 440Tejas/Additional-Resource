@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 void selectionSort(int arr[], int n) {
@@ -36,7 +36,7 @@ int main() {
  }
  printf("Enter the elements:\n");
  for (int i = 0; i < n; i++) {
-     scanf("%d", &arr[i]);
+scanf("%d", &arr[i]);
  }
  double time_taken = measureTime(arr, n);
  printf("Sorted array:\n");
